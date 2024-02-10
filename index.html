@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./asset/css/styles.css">
+
+        <!-- FONT AWESOME  -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <!-- NAV BAR START  -->
+        <nav class="nav-bar">
+            <div class="nav-title">CODING CRAZY</div>
+            <ul class="nav-list">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#skill">EXPERIENCE</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <!-- <li><a href="#">PROJECTS</a></li> -->
+                <li><a href="#about">ABOUT ME</a></li>
+            </ul>
+            <button class="contact"><a href="#">CONTACT
+                    ME</a></button>
+
+            <div class="toggle" onclick="toggleBtn()"><i
+                    class="fa-solid fa-bars"></i></div>
+        </nav>
+        <!-- NAV BAR END  -->
+        <!-- HOME START  -->
+        <div class="home-container" id="home">
+            <img src="./asset/image/Wave (2).svg" alt>
+            <div class="home-cont">
+                <div class="home-text">
+                    <h1>HELLO</h1>
+                    <h3>I'm Web Developer</h3>
+                    <p>Welcome to my corner of the web! I'm John Smith, a
+                        dedicated
+                        web developer with a passion for crafting seamless
+                        digital
+                        experiences that captivate and inspire. With a blend of
+                        technical expertise and creative flair, I specialize in
+                        building user-friendly websites and web applications
+                        that
+                        exceed expectations.
+                    </p>
+                    <button class="exp"><a href>EXPERIENCE</a></button>
+                </div>
+                <div class="home-img">
+                    <img src="./asset/image/zaw.jpg-Photoroom.png-Photoroom.png"
+                        alt>
+                </div>
+
+            </div>
+        </div>
+        <!-- HOME END  -->
+        <!-- WHAT CAN I DO START  -->
+        <div class="skill-container" id="skill">
+            <h1>SKILL</h1>
+            <h2>WHAT CAN I DO</h2>
+            <div class="skill">
+                <div class="skill-list">
+                    <div class="show">
+                        <i class="fa-brands fa-unity"></i>
+                        <h3>UI/UX</h3>
+                        <p>100<i class="fa-solid fa-plus"></i></p>
+                    </div>
+                    <div class="happy">
+                        <h2>2<i class="fa-solid fa-plus"></i></h2>
+                        <p>Years</p>
+                    </div>
+                </div>
+                <div class="skill-list">
+                    <div class="show">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>90<i class="fa-solid fa-plus"></i></p>
+                    </div>
+                    <div class="happy">
+                        <h2>100<i class="fa-solid fa-plus"></i></h2>
+                        <p>Happy Customer</p>
+                    </div>
+                </div>
+                <div class="skill-list">
+                    <div class="show">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <h3>Web Research</h3>
+                        <p>100<i class="fa-solid fa-plus"></i></p>
+                    </div>
+                    <div class="happy">
+                        <h2>400<i class="fa-solid fa-plus"></i></h2>
+                        <p>Design Items</p>
+                    </div>
+                </div>
+                <div class="skill-list">
+                    <div class="show">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <h3>Marketing</h3>
+                        <p>120<i class="fa-solid fa-plus"></i></p>
+                    </div>
+                    <div class="happy">
+                        <h2>9<i class="fa-solid fa-plus"></i></h2>
+                        <p>Happy Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- WHAT CAN I DO END  -->
+        <!-- PORTFOLIO START  -->
+        <div class="portfolio-container" id="portfolio">
+
+            <main>
+                <h1>PORTFOLIO</h1>
+
+                <ul class='slider'>
+                    <li class='item'
+                        style="background-image: url('./asset/image/artwork\ \(1\).png')">
+                        <div class='content'>
+                            <h2 class='title'>"Lossless Youths"</h2>
+                            <p class='description'> Lorem ipsum, dolor sit amet
+                                consectetur
+                                adipisicing elit. Tempore fuga voluptatum, iure
+                                corporis inventore
+                                praesentium nisi. Id laboriosam ipsam enim. </p>
+                            <button>Read More</button>
+                        </div>
+                    </li>
+                    <li class='item'
+                        style="background-image: url('https://i.redd.it/tc0aqpv92pn21.jpg')">
+                        <div class='content'>
+                            <h2 class='title'>"Estrange Bond"</h2>
+                            <p class='description'> Lorem ipsum, dolor sit amet
+                                consectetur
+                                adipisicing elit. Tempore fuga voluptatum, iure
+                                corporis inventore
+                                praesentium nisi. Id laboriosam ipsam enim. </p>
+                            <button>Read More</button>
+                        </div>
+                    </li>
+                    <li class='item'
+                        style="background-image: url('./asset/image/artwork\ \(2\).png')">
+                        <div class='content'>
+                            <h2 class='title'>"The Gate Keeper"</h2>
+                            <p class='description'> Lorem ipsum, dolor sit amet
+                                consectetur
+                                adipisicing elit. Tempore fuga voluptatum, iure
+                                corporis inventore
+                                praesentium nisi. Id laboriosam ipsam enim. </p>
+                            <button>Read More</button>
+                        </div>
+                    </li>
+                    <li class='item'
+                        style="background-image: url('https://images7.alphacoders.com/878/878663.jpg')">
+                        <div class='content'>
+                            <h2 class='title'>"Last Trace Of Us"</h2>
+                            <p class='description'>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit. Tempore fuga voluptatum, iure corporis
+                                inventore praesentium nisi. Id laboriosam ipsam
+                                enim.
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                    </li>
+                    <li class='item'
+                        style="background-image: url('./asset/image/artwork\ \(3\).png')">
+                        <div class='content'>
+                            <h2 class='title'>"Urban Decay"</h2>
+                            <p class='description'>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing
+                                elit. Tempore fuga voluptatum, iure corporis
+                                inventore praesentium nisi. Id laboriosam ipsam
+                                enim.
+                            </p>
+                            <button>Read More</button>
+                        </div>
+                    </li>
+                    <li class='item'
+                        style="background-image: url('./asset/image/alchemyrefiner_alchemymagic_3_fbd22257-0fe6-4e87-b7b3-784dfc672c13_0.jpg')">
+                        <div class='content'>
+                            <h2 class='title'>"The Migration"</h2>
+                            <p class='description'> Lorem ipsum, dolor sit amet
+                                consectetur
+                                adipisicing elit. Tempore fuga voluptatum, iure
+                                corporis inventore
+                                praesentium nisi. Id laboriosam ipsam enim. </p>
+                            <button>Read More</button>
+                        </div>
+                    </li>
+                </ul>
+            </main>
+        </div>
+        <!-- PORTFOLIO END  -->
+
+        <!-- ABOUT START  -->
+        <div class="about" id='about'>
+            <img class='bg-img' src="./asset/image/Wave (7).svg" alt>
+            <div class="about-container">
+                <h1>ABOUT ME</h1>
+                <div class="about-text">
+                    <div class="about-img">
+                        <img
+                            src="./asset/image/zawlay-Photoroom.png-Photoroom.png"
+                            alt>
+                    </div>
+                    <div class="about-me">
+                        <h3>Who am i</h3>
+                        <p>My name is Zaw Win Myint, I'm a freelance Full
+                            StackDeveloper base in Yangon,Myanmar and I'm very
+                            passionate and dedicated to my work. With 2years
+                            experience as a Junior Full Stack Developer. I have
+                            a quired the skills necessary to build great and
+                            premium websites.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Velit, ducimus maiores? Velit rem odit,
+                            facilis illum architecto similique sunt natus?
+                        </p>
+
+                        <div class="lang-skill">
+                            <div class="language">
+                                <h4>Html5</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                            </div>
+                            <div class="language">
+                                <h4>Css</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                            </div>
+                            <div class="language">
+                                <h4>Bootstrap</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="language">
+                                <h4>JavaScript</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="language">
+                                <h4>JQuery</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                            </div>
+                            <div class="language">
+                                <h4>VueJs</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                            </div>
+                            <div class="language">
+                                <h4>PHP</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="language">
+                                <h4>Laravel</h4>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="cv-btn"><a href="#">Download
+                                CV</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ABOUT END  -->
+        <!-- CONTACT START  -->
+        <div class="contact-cont">
+            <div class="contact-container">
+                <h2>CONTACT ME</h2>
+                <button class="close-btn"><i
+                        class="fa-solid fa-xmark"></i></button>
+                <div class="contact-form">
+                    <div class="name">
+                        <label for>Name</label>
+                        <input type="text"
+                            placeholder="Enter your name...">
+                    </div>
+                    <div class="email">
+                        <label for>Email</label>
+                        <input type="email"
+                            placeholder=" Enter your email...">
+                    </div>
+                    <div class="phone">
+                        <label for>Phone</label>
+                        <input type="text"
+                            placeholder=" Enter your phone...">
+                    </div>
+                    <div class="text">
+                        <label for>Text</label>
+                        <textarea name placeholder="Enter your text..." id
+                            cols="30"
+                            rows="10"></textarea>
+                    </div>
+                </div>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        <!-- CONTACT END  -->
+    </body>
+    <script src="./asset/js/app.js"></script>
+</html>
