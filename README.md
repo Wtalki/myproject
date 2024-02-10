@@ -4,5 +4,4 @@
 
 \*I try to best
 
-:-------------------------------------------------------------------------------------------------: |
-| 1 | [Drum Kit](https://wtalki.github.io/myproject/) |
+| 1 | [MyPortfolio](https://wtalki.github.io/myproject/) |
